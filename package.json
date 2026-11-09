@@ -1,0 +1,12 @@
+{
+  "name": "queryquiz",
+  "version": "1.0.0",
+  "description": "Quiz generator using query params",
+  "private": true,
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "dev:server": "pnpm --filter server dev",
+    "build:web": "pnpm --filter web build",
+    "build:server": "pnpm --filter server build"
+  }
+}
